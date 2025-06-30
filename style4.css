@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border: 1px solid #ccc;
+  width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px #ddd;
+  text-align: center;
+}
